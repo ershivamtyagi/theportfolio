@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume | Your Name</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-a"></div>
+    <div class="bg-orb orb-b"></div>
+    <div class="noise-layer"></div>
+
+    <header class="topbar">
+      <p class="brand">YOUR NAME</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">Resume + Capabilities</p>
+          <h1>Product-minded engineer building clean, reliable software.</h1>
+          <p class="intro">
+            I design and deliver robust web products, from idea to production.
+            I focus on thoughtful UX, performance, and maintainable architecture.
+          </p>
+          <div class="hero-cta">
+            <a class="btn primary" href="#contact">Hire Me</a>
+            <a class="btn ghost" href="#projects">View Work</a>
+          </div>
+        </div>
+        <aside class="hero-card">
+          <h2>Quick Facts</h2>
+          <ul>
+            <li><span>Role</span><strong>Full-Stack Developer</strong></li>
+            <li><span>Location</span><strong>Your City, Country</strong></li>
+            <li><span>Experience</span><strong>5+ Years</strong></li>
+            <li><span>Focus</span><strong>Web Apps, APIs, UX</strong></li>
+          </ul>
+        </aside>
+      </section>
+
+      <section id="about" class="panel reveal">
+        <h2>About Me</h2>
+        <p>
+          I enjoy turning complex business requirements into intuitive software.
+          My approach combines strong engineering discipline with practical
+          product sense to ship fast without sacrificing quality.
+        </p>
+      </section>
+
+      <section id="experience" class="panel reveal">
+        <h2>Experience</h2>
+        <article class="timeline-item">
+          <div>
+            <h3>Senior Developer - Company One</h3>
+            <p class="meta">2023 - Present</p>
+          </div>
+          <p>
+            Led development of a customer platform serving 100k+ users. Reduced
+            page load time by 45% and improved deployment reliability with CI/CD
+            automation.
+          </p>
+        </article>
+        <article class="timeline-item">
+          <div>
+            <h3>Software Engineer - Company Two</h3>
+            <p class="meta">2020 - 2023</p>
+          </div>
+          <p>
+            Built internal tools and APIs that streamlined operations, cutting
+            manual effort by 30% across multiple teams.
+          </p>
+        </article>
+      </section>
+
+      <section id="skills" class="panel reveal">
+        <h2>Capabilities</h2>
+        <div class="chip-grid">
+          <span>JavaScript / TypeScript</span>
+          <span>React / Next.js</span>
+          <span>Node.js / Express</span>
+          <span>REST & GraphQL APIs</span>
+          <span>SQL / PostgreSQL</span>
+          <span>Cloud Deployment</span>
+          <span>System Design</span>
+          <span>Testing & QA</span>
+        </div>
+      </section>
+
+      <section id="projects" class="panel reveal">
+        <h2>Selected Projects</h2>
+        <div class="project-grid">
+          <article>
+            <h3>Analytics Dashboard</h3>
+            <p>
+              Built an interactive dashboard with role-based access and real-time
+              metrics for business stakeholders.
+            </p>
+          </article>
+          <article>
+            <h3>E-commerce Optimization</h3>
+            <p>
+              Reworked checkout architecture and payment flows, increasing
+              conversion rate and reducing cart abandonment.
+            </p>
+          </article>
+          <article>
+            <h3>Workflow Automation Suite</h3>
+            <p>
+              Created automation tooling that connected third-party services and
+              simplified repetitive operational tasks.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="panel reveal">
+        <h2>Contact</h2>
+        <p>Let’s build something useful together.</p>
+        <ul class="contact-list">
+          <li>Email: you@example.com</li>
+          <li>LinkedIn: linkedin.com/in/yourname</li>
+          <li>GitHub: github.com/yourname</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
